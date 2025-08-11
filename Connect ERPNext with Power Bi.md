@@ -1,8 +1,7 @@
 <p align="center">
   <img width="115" height="115" alt="Remote Access" src="https://github.com/user-attachments/assets/657bb777-d9e1-43cb-aab5-2c8b39029c0c" style="vertical-align:bottom;" />
-  <img width="195" height="70" alt="Power BI" src="https://github.com/user-attachments/assets/b6b12445-4a2b-4f34-92c4-7819e5c491cc" style="vertical-align:bottom;" />
-  <img width="115" height="115" alt="EM" src="https://github.com/user-attachments/assets/2d671067-7c17-481a-835a-e1d981c08ce1" />
-
+  <img width="200" height="200" alt="Arrow" src="https://github.com/user-attachments/assets/4c24c8fc-e16a-4a7c-bf9a-c0f0a36a4f58" style="vertical-align:bottom;" />
+  <img width="115" height="115" alt="EM" src="https://github.com/user-attachments/assets/2d671067-7c17-481a-835a-e1d981c08ce1" style="vertical-align:bottom;" />
 </p>
 
 # 🚀 Enable Remote Access To Connect Microsoft Power BI
@@ -62,8 +61,10 @@ sudo ufw allow 3306/tcp
 sudo ufw reload
 ```
 
-
+***
+___
 ---
+✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦    
 
 ## ✅ Option-2 (Create a Limited Access Remote User)
 ## 🔒 Safer Alternative (Recommended)
@@ -122,7 +123,7 @@ sudo systemctl restart mariadb
 If your distribution uses `/etc/mysql/my.cnf` or another conf file, update that instead.
 
 ---
-
+✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦   
 
 ## 🐬 <img width="28" height="28" alt="MySQL" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" /> Install MySQL database Connector:   
 Download Any Latest Driver & Install :
@@ -131,6 +132,7 @@ https://dev.mysql.com/downloads/connector/odbc/
 <img width="548" height="420" alt="image" src="https://github.com/user-attachments/assets/6650fcfb-e8a8-4aed-a64f-2ed80fdb4d75" />
 
 ---
+✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦   
 
 ## <img width="35" height="35" alt="Power BI" src="https://github.com/user-attachments/assets/63f8afd1-86e5-491f-a3f5-d40d53d26e3a" /> Connect Power BI:
 
