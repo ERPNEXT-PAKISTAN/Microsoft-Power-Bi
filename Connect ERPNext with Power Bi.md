@@ -86,9 +86,9 @@ ON _916e2dbd66f00f1b.*
 TO 'erpnext'@'%';
 ```
 - Replace `_916e2dbd66f00f1b` and `StrongPa$$w0rd!` & use a strong password.
-- See Database Name:
+- See Database Name in mysql:
 ```
-SELECT DATABASE();
+SHOW DATABASES;
 ```
 ```
 FLUSH PRIVILEGES;
