@@ -1,6 +1,8 @@
 <p align="center">
-   <img width="195" height="70" alt="Power BI" src="https://github.com/user-attachments/assets/b6b12445-4a2b-4f34-92c4-7819e5c491cc" />
-   <img width="115" height="115" alt="Remote Access" src="https://github.com/user-attachments/assets/657bb777-d9e1-43cb-aab5-2c8b39029c0c" />
+  <img width="115" height="115" alt="Remote Access" src="https://github.com/user-attachments/assets/657bb777-d9e1-43cb-aab5-2c8b39029c0c" style="vertical-align:bottom;" />
+  <img width="195" height="70" alt="Power BI" src="https://github.com/user-attachments/assets/b6b12445-4a2b-4f34-92c4-7819e5c491cc" style="vertical-align:bottom;" />
+  <img width="115" height="115" alt="EM" src="https://github.com/user-attachments/assets/2d671067-7c17-481a-835a-e1d981c08ce1" />
+
 </p>
 
 # 🚀 Enable Remote Access To Connect Microsoft Power BI
