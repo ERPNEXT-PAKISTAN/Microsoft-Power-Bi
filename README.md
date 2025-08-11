@@ -21,11 +21,11 @@
 
 
 ---
-### 🐬 <img width="28" height="28" alt="MySQL" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" /> Install MySQL database Connector:   
+### 🐬 <img width="28" height="28" alt="MySQL" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" /> Install MySQL database Connector:     
 
-<img width="548" height="420" alt="image" src="https://github.com/user-attachments/assets/6650fcfb-e8a8-4aed-a64f-2ed80fdb4d75" />
+<img width="548" height="420" alt="image" src="https://github.com/user-attachments/assets/6650fcfb-e8a8-4aed-a64f-2ed80fdb4d75" />    
+
 ---
-### <img width="35" height="35" alt="Power BI" src="https://github.com/user-attachments/assets/63f8afd1-86e5-491f-a3f5-d40d53d26e3a" /> Connect Power BI:
 
 <p align="center">
    <img width="48" height="48" alt="Power" src="https://github.com/user-attachments/assets/3adf0802-030b-4f5b-a6fa-4a5a058ac619" />
@@ -40,20 +40,9 @@
 - **User Name:** `root`
 - **Password:** `abc123`
 
----
-### 🔍 Check ERPNext Database Name:
-Open ERPNext --> System Console ---> Select Type: SQL
 
-```bash
-SELECT DATABASE();
-```
 ---
 <img width="718" height="285" alt="Power Conn" src="https://github.com/user-attachments/assets/ee6863cf-f579-47ff-877f-b4c0caaf9223" />
 <img width="708" height="387" alt="Power Connt" src="https://github.com/user-attachments/assets/531a0dcb-e70f-4782-bbc7-abcb1fb65468" />
 
 ---
-
-## 🔍 Troubleshooting
-### Helpful commands:
-## ⚠️ Security Warnings (Please Read)
-## ✅ Rollback — Revoke remote privileges
