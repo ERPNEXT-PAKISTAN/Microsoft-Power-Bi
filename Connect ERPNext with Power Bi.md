@@ -68,18 +68,20 @@ sudo ufw reload
 
 Instead of exposing the root account remotely, create a dedicated user with limited access to only the databases that user needs.
 
-### Create a limited remote user
-
+### Create a Limited Access Remote User
+### Step 1 — Login to MySQL
 ```sql
 sudo mysql -u root -p
 ```
--To See List of User & Database Name:
+### Step 2 - To See List of User & Database Name:
 ```
 select user, host from mysql.user;
 ```
+### Step 3 - Create User & Password:
 ```
 CREATE USER 'erpnext'@'%' IDENTIFIED BY 'StrongPa$$w0rd!';
 ```
+### Step 4 - Grand Limited Privileges:
 ```
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX 
 ON _916e2dbd66f00f1b.* 
@@ -87,12 +89,15 @@ TO 'erpnext'@'%';
 ```
 - Replace `_916e2dbd66f00f1b` and `StrongPa$$w0rd!` & use a strong password.
 - See Database Name in mysql:
+### Step 5 - See List of Databases & Name:
 ```
 SHOW DATABASES;
 ```
+### Step 6 - Flush Privileges:
 ```
 FLUSH PRIVILEGES;
 ```
+### Step 7 - Exit from mysql:
 ```
 EXIT;
 ```
