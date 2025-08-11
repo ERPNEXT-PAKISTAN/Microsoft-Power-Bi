@@ -4,31 +4,23 @@
   <img width="115" height="115" alt="EM" src="https://github.com/user-attachments/assets/2d671067-7c17-481a-835a-e1d981c08ce1" style="vertical-align:bottom;" />
 </p>
 
-# 🚀 Enable Remote Access To Connect Microsoft Power BI
+<h1 align="center">🚀 Enable Remote Access To Connect Microsoft Power BI</h1>
 
-Easily and securely enable remote access for MariaDB, so you can connect your data to Power BI.  
+<p align="center">
+  <strong>
+    Easily and securely connect your MariaDB data to Microsoft Power BI.
+  </strong>
+</p>
+
+<p align="center" style="margin-top: 2em;">
+  <a href="https://wa.me/923009808900" target="_blank" style="font-size:1.2em;">
+    <img width="28" height="28" src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" />
+    WhatsApp: <strong>+92 300 9808900</strong>
+  </a>
+</p>
+
 
 ---
-
-## ⚡️ Quick Options
-
-| Option | Description | Risk Level |
-|--------|-------------|------------|
-| ⚠️ Option-1 | **Give Full Privileges to root user** | **High risk** |
-| ✅ Option-2 | **Create a limited access remote user (Recommended)** | **Safe** |
-
-> **Important:** Giving `root@'%'` full privileges is risky. See the **Safer Alternative** section.
-
----
-
-### 🗄️ Step 1 — Open MariaDB shell as local root
-
-### 🔑 Option-1 — Give Full Privileges to root user
-### ✅ Option-2 (Create a Limited Access Remote User)
-### 🔒 Safer Alternative (Recommended)
-### Create a Limited Access Remote User
-### Step 1 — Login to MySQL
-### 🛠️ Configure MariaDB to listen on all interfaces
 ### 🐬 <img width="28" height="28" alt="MySQL" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" /> Install MySQL database Connector:   
 
 <img width="548" height="420" alt="image" src="https://github.com/user-attachments/assets/6650fcfb-e8a8-4aed-a64f-2ed80fdb4d75" />
