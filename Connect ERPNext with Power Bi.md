@@ -73,13 +73,19 @@ Instead of exposing the root account remotely, create a dedicated user with limi
 ```sql
 sudo mysql -u root -p
 ```
+- To See List of User & Database Name:
+```
+select user, host from mysql.user;
+```
 ```
 CREATE USER 'erpnext'@'%' IDENTIFIED BY 'StrongPa$$w0rd!';
 ```
 ```
-GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX ON your_database_name.* TO 'erpnext'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX 
+ON _916e2dbd66f00f1b.* 
+TO 'erpnext'@'%';
 ```
-- Replace `your_database_name` and use a strong password.
+- Replace `_916e2dbd66f00f1b` and `StrongPa$$w0rd!` & use a strong password.
 - See Database Name:
 ```
 SELECT DATABASE();
