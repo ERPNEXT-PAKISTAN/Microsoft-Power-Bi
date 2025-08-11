@@ -73,7 +73,7 @@ Instead of exposing the root account remotely, create a dedicated user with limi
 ```sql
 sudo mysql -u root -p
 ```
-- To See List of User & Database Name:
+-To See List of User & Database Name:
 ```
 select user, host from mysql.user;
 ```
