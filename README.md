@@ -20,8 +20,11 @@
 </p>
 
 
----
-<img width="1280" height="720" alt="Mysql user" src="https://github.com/user-attachments/assets/3e24b758-8d31-4ce6-b542-f68e1bb73733" />   
+---   
+
+<p align="center">
+  <img width="1280" height="720" alt="Mysql user" src="https://github.com/user-attachments/assets/3e24b758-8d31-4ce6-b542-f68e1bb73733" />
+</p>
 
 ---     
 
