@@ -22,6 +22,7 @@
 
 ---
 <img width="1280" height="720" alt="Mysql user" src="https://github.com/user-attachments/assets/3e24b758-8d31-4ce6-b542-f68e1bb73733" />
+---     
 
 ### 🐬 <img width="28" height="28" alt="MySQL" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" /> Install MySQL database Connector:     
 
