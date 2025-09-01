@@ -29,7 +29,7 @@ sudo mysql -u root -p
 
 ---
 ## 🔑 Option-1 — Give Full Privileges to root user
-
+### 1) Create user & Give full Privileges:→ 👤🔑⭐
 ```sql
 select user, host from mysql.user;
 ```
@@ -49,11 +49,11 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### 3) Restart MariaDB
+### 2) Restart MariaDB → 🔄 🐬
 ```bash
 sudo systemctl restart mariadb
 ```
-### 3) Allow firewall port
+### 3) Allow firewall port → 🔥🔓 or 🔥📡
 ```
 sudo ufw allow 3306/tcp
 ```
@@ -105,11 +105,11 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### 3) Restart MariaDB
+### 2) Restart MariaDB → 🔄 🐬
 ```bash
 sudo systemctl restart mariadb
 ```
-### 3) Allow firewall port
+### 3) Allow firewall port → 🔥🔓 or 🔥📡
 ```
 sudo ufw allow 3306/tcp
 ```
