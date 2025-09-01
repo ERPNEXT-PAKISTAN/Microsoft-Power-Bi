@@ -105,11 +105,11 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### 2) Restart MariaDB → 🔄 🐬
+### Step 8 - Restart MariaDB → 🔄 🐬
 ```bash
 sudo systemctl restart mariadb
 ```
-### 3) Allow firewall port → 🔥🔓 or 🔥📡
+### Step 9 - Allow firewall port → 🔥🔓 or 🔥📡
 ```
 sudo ufw allow 3306/tcp
 ```
