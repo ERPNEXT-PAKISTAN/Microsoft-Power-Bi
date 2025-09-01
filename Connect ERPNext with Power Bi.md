@@ -29,7 +29,7 @@ sudo mysql -u root -p
 
 ---
 ## 🔑 Option-1 — Give Full Privileges to root user
-### 1) Create user & Give full Privileges:→ 👤🔑⭐
+### 1) → 👤🔑⭐ Create user & Give full Privileges:
 ```sql
 select user, host from mysql.user;
 ```
@@ -72,19 +72,19 @@ sudo ufw reload
 Instead of exposing the root account remotely, create a dedicated user with limited access to only the databases that user needs.
 
 ### Create a Limited Access Remote User
-### Step 1 — Login to MySQL
+### Step 1 → 🖥️🔑 Login to MySQL
 ```sql
 sudo mysql -u root -p
 ```
-### Step 2 - To See List of User & Database Name:
+### Step 2 → 📋👤💾 To See List of User & Database Name:
 ```
 select user, host from mysql.user;
 ```
-### Step 3 - Create User & Password:
+### Step 3 → 👤➕🔑 Create User & Password:
 ```
 CREATE USER 'erpnext'@'%' IDENTIFIED BY 'StrongPa$$w0rd!';
 ```
-### Step 4 - Grand Limited Privileges:
+### Step 4 → 🎟️🔒 Grand Limited Privileges:
 ```
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX 
 ON _916e2dbd66f00f1b.* 
@@ -92,24 +92,24 @@ TO 'erpnext'@'%';
 ```
 - Replace `_916e2dbd66f00f1b` and `StrongPa$$w0rd!` & use a strong password.
 - See Database Name in mysql:
-### Step 5 - See List of Databases & Name:
+### Step 5 → 📚💾 See List of Databases & Name:
 ```
 SHOW DATABASES;
 ```
-### Step 6 - Flush Privileges:
+### Step 6 → 🔄🔐 Flush Privileges:
 ```
 FLUSH PRIVILEGES;
 ```
-### Step 7 - Exit from mysql:
+### Step 7 → 🚪↩️ Exit from mysql:
 ```
 EXIT;
 ```
 
-### Step 8 - Restart MariaDB → 🔄 🐬
+### Step 8 → 🔄 🐬 Restart MariaDB 
 ```bash
 sudo systemctl restart mariadb
 ```
-### Step 9 - Allow firewall port → 🔥🔓 or 🔥📡
+### Step 9 → 🔥🔓 or 🔥📡 Allow firewall port 
 ```
 sudo ufw allow 3306/tcp
 ```
