@@ -123,7 +123,7 @@ sudo ufw reload
 
 ## 🛠️ Configure MariaDB to listen on all interfaces
 
-Open the server configuration and change bind-address:
+➡️ Open the server configuration and change bind-address:
 
 ```bash
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
