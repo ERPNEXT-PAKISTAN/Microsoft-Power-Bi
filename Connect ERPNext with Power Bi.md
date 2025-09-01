@@ -65,9 +65,11 @@ sudo ufw reload
 ---
 ✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦    
 ---
+---
 
 ## ✅ Option-2 (Create a Limited Access Remote User)
-## 🔒 Safer Alternative (Recommended)
+
+## 🛡️👍🔒 Safer Alternative (Recommended)
 
 Instead of exposing the root account remotely, create a dedicated user with limited access to only the databases that user needs.
 
@@ -126,7 +128,7 @@ Open the server configuration and change bind-address:
 ```bash
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
-##  (bind-address = 127.0.0.1)  --->  change to: (bind-address = 0.0.0.0)
+### 🖥️➡️🌍 (bind-address = 127.0.0.1)  --->  change to: (bind-address = 0.0.0.0) ⚙️🌐🔄
 ```
 sudo systemctl restart mariadb
 ```
