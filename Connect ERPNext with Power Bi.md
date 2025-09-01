@@ -105,6 +105,17 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
+### 3) Restart MariaDB
+```bash
+sudo systemctl restart mariadb
+```
+### 3) Allow firewall port
+```
+sudo ufw allow 3306/tcp
+```
+```
+sudo ufw reload
+```
 
 ---
 
