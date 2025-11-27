@@ -149,8 +149,9 @@ https://dev.mysql.com/downloads/connector/odbc/
 ### If You have Error:
 <img width="566" height="285" alt="image" src="https://github.com/user-attachments/assets/204161c3-c6b9-4c1e-abf4-4cd10db6406a" />
 
-#### Dowload & Install this:
-https://aka.ms/vs/17/release/vc_redist.x64.exe
+#### Dowload & Install this:    
+https://aka.ms/vs/17/release/vc_redist.x64.exe     (64-bit version)     
+https://aka.ms/vs/17/release/vc_redist.x86.exe     (32-bit version)     
 
 ✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦  
 ---
